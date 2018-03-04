@@ -1,0 +1,7 @@
+version: '{build}'
+image: Visual Studio 2017
+environment:
+  NUGET_API_KEY:
+    secure: v5VEb5ByOGPw9XZ9JD4bo11AYsV9ZOWuYztmuIDdfjuI3Eizse7hx364f92gJpwN
+build_script:
+- ps: .\build.ps1 -t Ship
