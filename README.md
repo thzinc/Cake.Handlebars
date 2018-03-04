@@ -9,7 +9,7 @@ Cake addin for working with Handlebars templates
 Add the `Cake.HandlebarsDotNet` package to your Cake script:
 
 ```csharp
-#addin nuget:?package=Cake.HandlebarsDotNet
+#addin nuget:?package=Cake.HandlebarsDotNet&loaddependencies=true
 ```
 
 Then use it in your script
