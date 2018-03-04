@@ -3,7 +3,7 @@ using Cake.Core;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Cake.Handlebars.Tests
+namespace Cake.HandlebarsDotNet.Tests
 {
     [TestClass]
     public class HandlebarsTests

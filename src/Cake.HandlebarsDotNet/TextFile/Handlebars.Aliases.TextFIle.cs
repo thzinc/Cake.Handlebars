@@ -3,7 +3,7 @@ using System.IO;
 using Cake.Core.Annotations;
 using Cake.Core.IO;
 
-namespace Cake.Handlebars
+namespace Cake.HandlebarsDotNet
 {
     partial class HandlebarsAliases
     {

@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Cake.Handlebars.Tests/Cake.Handlebars.Tests.csproj"
+                "${workspaceFolder}/src/Cake.HandlebarsDotNet.Tests/Cake.HandlebarsDotNet.Tests.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

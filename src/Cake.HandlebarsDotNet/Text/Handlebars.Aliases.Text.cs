@@ -1,7 +1,7 @@
 using System;
 using Cake.Core.Annotations;
 
-namespace Cake.Handlebars
+namespace Cake.HandlebarsDotNet
 {
     partial class HandlebarsAliases
     {
@@ -19,7 +19,7 @@ namespace Cake.Handlebars
                 throw new ArgumentNullException(nameof(context));
             }
 
-            var compiled = HandlebarsDotNet.Handlebars.Compile(template);
+            var compiled = global::HandlebarsDotNet.Handlebars.Compile(template);
 
             return compiled(data);
         }

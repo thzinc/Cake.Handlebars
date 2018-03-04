@@ -19,8 +19,8 @@ Task("Build")
 	.IsDependentOn("GetVersion")
 	.Does (() =>
 	{
-		DotNetCoreRestore("./Cake.Handlebars.sln");
-		DotNetCoreBuild("./Cake.Handlebars.sln", new DotNetCoreBuildSettings
+		DotNetCoreRestore("./Cake.HandlebarsDotNet.sln");
+		DotNetCoreBuild("./Cake.HandlebarsDotNet.sln", new DotNetCoreBuildSettings
 		{
 			Configuration = "Release",
 			ArgumentCustomization = args => args.Append($"/property:Version={version}"),
@@ -32,7 +32,7 @@ Task("UnitTest")
 	.IsDependentOn("Build")
 	.Does(() =>
 	{
-		DotNetCoreTest("./src/Cake.Handlebars.Tests");
+		DotNetCoreTest("./src/Cake.HandlebarsDotNet.Tests");
 	});
 
 Task("NuGetPack")
@@ -40,7 +40,7 @@ Task("NuGetPack")
 	.IsDependentOn("UnitTest")
 	.Does (() =>
 	{
-		DotNetCorePack("./src/Cake.Handlebars", new DotNetCorePackSettings
+		DotNetCorePack("./src/Cake.HandlebarsDotNet", new DotNetCorePackSettings
 		{
 			Configuration = "Release",
 			OutputDirectory = "./artifacts",
@@ -60,7 +60,7 @@ Task("NuGetPush")
             ApiKey = EnvironmentVariable("NUGET_API_KEY"),
         };
 
-        DotNetCoreNuGetPush($"./artifacts/Cake.Handlebars.{version}.nupkg", settings);
+        DotNetCoreNuGetPush($"./artifacts/Cake.HandlebarsDotNet.{version}.nupkg", settings);
 	});
 
 Task("Default")

@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1BBF551C-86D1-44E0-8533-9F1292D9F758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Handlebars", "src\Cake.Handlebars\Cake.Handlebars.csproj", "{BB51087B-2D6F-43A1-81E3-365DF828E957}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.HandlebarsDotNet", "src\Cake.HandlebarsDotNet\Cake.HandlebarsDotNet.csproj", "{BB51087B-2D6F-43A1-81E3-365DF828E957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Handlebars.Tests", "src\Cake.Handlebars.Tests\Cake.Handlebars.Tests.csproj", "{218ECA24-D7C4-4413-A1B7-D441D2083A74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.HandlebarsDotNet.Tests", "src\Cake.HandlebarsDotNet.Tests\Cake.HandlebarsDotNet.Tests.csproj", "{218ECA24-D7C4-4413-A1B7-D441D2083A74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

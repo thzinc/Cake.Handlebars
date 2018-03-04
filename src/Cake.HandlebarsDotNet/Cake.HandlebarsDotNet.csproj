@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard1.6;net46</TargetFrameworks>
-    <PackageId>Cake.Handlebars</PackageId>
+    <PackageId>Cake.HandlebarsDotNet</PackageId>
     <Authors>Daniel James</Authors>
     <Description>Cake addin for working with Handlebars templates</Description>
     <Copyright>2018 Daniel James</Copyright>
-    <PackageLicenseUrl>https://github.com/thzinc/Cake.Handlebars/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/thzinc/Cake.Handlebars</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/thzinc/Cake.Handlebars</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/thzinc/Cake.HandlebarsDotNet/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/thzinc/Cake.HandlebarsDotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thzinc/Cake.HandlebarsDotNet</RepositoryUrl>
     <PackageTags>c#,csharp,cake,addin,handlebars,handlebarsjs,handlebars.net</PackageTags>
     <Version>0.0.0</Version>
   </PropertyGroup>
