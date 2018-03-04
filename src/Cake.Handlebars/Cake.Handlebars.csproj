@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <!-- <TargetFrameworks>netstandard1.6;net46</TargetFrameworks> -->
-    <TargetFrameworks>netstandard1.6</TargetFrameworks>
+    <TargetFrameworks>netstandard1.6;net46</TargetFrameworks>
     <PackageId>Cake.Handlebars</PackageId>
     <Authors>Daniel James</Authors>
     <Description>Cake addin for working with Handlebars templates</Description>
